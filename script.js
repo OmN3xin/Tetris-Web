@@ -10,7 +10,7 @@ var cellHeight = 40;
 var cellWidth = 40;
 
 var canvas = document.querySelector("canvas");
-canvas.style.height = height
+canvas.style.height = height+"px"
 canvas.height = cellHeight * height + 15;
 var context = canvas.getContext("2d");
 
